@@ -1,0 +1,42 @@
+h1{
+    background-color: lightblue; /*tausta värv*/
+    color: white; /*teksti värv*/
+    border-radius: 7px;
+
+}
+header, footer{
+    font-family: Poor Richard;
+    font-size: large;
+    width: 60%;
+    border: 1px dashed black;
+    background-color: lightskyblue;
+    border-radius: 35px;
+    padding:1%;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center; /*teksti joondamine keskele*/
+    margin: 2%;
+    padding: 0;
+    background-color: aliceblue;
+
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 1%;
+
+}
+main {
+    margin: 40px;
+    padding: 1%;
+}
+nav a:hover { /*link fookuses kui hiir peal*/
+
+        transition-duration: 0.4s;
+        font-size: x-large;
+}
+nav a{ /*kui võtad hiire ära*/
+    transition-duration: 0.4s;
+    font-size: large;
+}
