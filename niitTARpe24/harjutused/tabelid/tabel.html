@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid html/css kujundusega</title>
+    <link rel="stylesheet" href="tabelStyle.css">
+</head>
+<body>
+<h1>Tabelid</h1>
+<table id="lihtne">
+  <caption>Lihtne värvitud tabel</caption>
+  <!--1.rida-->
+  <tr>
+    <td>A</td>
+    <td>B</td>
+  </tr>
+  <!--2.rida-->
+  <tr>
+    <td>C</td>
+    <td>D</td>
+  </tr>
+
+</table>
+<!--natuke keerulisem tabel-->
+<table id="keeruline1">
+  <caption>keeruline värvitud tabel 1</caption>
+  <!--1.rida-->
+  <tr>
+    <!--rowspan ühendab 2 rida-->
+    <td rowspan="2">A</td>
+    <td>B</td>
+  </tr>
+  <!--2.rida-->
+  <tr>
+    <td>C</td>
+  </tr>
+</table>
+
+<!--natuke keerulisem tabel-->
+<table id="keeruline2">
+  <caption>keeruline värvitud tabel 2</caption>
+  <!--1.rida-->
+  <tr>
+    <td>A</td>
+    <td>B</td>
+  </tr>
+  <!--2.rida-->
+  <tr>
+    <td colspan="2">C</td>
+  </tr>
+</table>
+
+<table id="keeruline3">
+  <caption>keeruline värvitud tabel 3</caption>
+  <!--1.rida-->
+  <tr>
+    <td>A</td>
+    <td colspan="3">B</td>
+  </tr>
+  <!--2.rida-->
+  <tr>
+    <td colspan="2">C</td>
+    <td rowspan="3">D</td>
+    <td rowspan="3">E</td>
+  </tr>
+  <!--rida 3-->
+  <tr>
+    <td>F</td>
+    <td>G</td>
+  </tr>
+  <!--rida 4-->
+  <tr>
+    <td colspan="2">I</td>
+  </tr>
+</table>
+
+<table id="keeruline4">
+  <caption>keeruline tabel 4</caption>
+  <tr> <!--1-->
+    <td colspan="6">A</td>
+  </tr>
+  <tr> <!--2-->
+    <td rowspan="4">B</td>
+    <td colspan="4">C</td>
+    <td rowspan="6">D</td>
+  </tr>
+  <tr> <!--3-->
+    <td rowspan="2">F</td>
+    <td colspan="2">G</td>
+    <td rowspan="3">H</td>
+  </tr>
+  <tr> <!--4-->
+    <td>I</td>
+    <td>J</td>
+  </tr>
+  <tr> <!--5-->
+    <td colspan="3">K</td>
+  </tr>
+  <tr> <!--6-->
+    <td colspan="5">L</td>
+  </tr>
+</table>
+<table id="robini mingi asi">
+  <caption> robini tabel</caption>
+  <tr>
+    <td rowspan="2">A</td>
+    <td colspan="3">B</td>
+    <td colspan="3">C</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+    <td colspan="2">G</td>
+    <td rowspan="5">H</td>
+  </tr>
+  <tr>
+    <td rowspan="4">I</td>
+    <td colspan="3">J</td>
+    <td colspan="2">K</td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td colspan="2">M</td>
+    <td>N</td>
+    <td>O</td>
+  </tr>
+  <tr>
+    <td>P</td>
+    <td colspan="2">Q</td>
+    <td>R</td>
+    <td>S</td>
+  </tr>
+  <tr>
+    <td colspan="3">T</td>
+    <td colspan="2">U</td>
+  </tr>
+</table>
+
+<table id="opetajatabel">
+  <caption>opetaja tabel</caption>
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>G</td>
+    <td>H</td>
+    <td>I</td>
+    <td>J</td>
+  </tr>
+  <tr>
+    <td>J</td>
+    <td>K</td>
+    <td>L</td>
+    <td>M</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>O</td>
+    <td>P</td>
+    <td>Q</td>
+    <td>R</td>
+    <td>S</td>
+  </tr>
+  <tr>
+    <td>U</td>
+    <td>V</td>
+    <td>W</td>
+    <td>X</td>
+    <td>Y</td>
+  </tr>
+</table>
+</body>
+</html>
