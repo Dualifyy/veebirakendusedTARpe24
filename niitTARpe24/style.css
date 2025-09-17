@@ -1,5 +1,5 @@
 h1{
-    background-color: lightblue; /*tausta värv*/
+    background-color: blue; /*tausta värv*/
     color: white; /*teksti värv*/
     border-radius: 7px;
 
@@ -9,22 +9,26 @@ header, footer{
     font-size: large;
     width: 60%;
     border: 1px dashed black;
-    background-color: lightskyblue;
-    border-radius: 35px;
+    background-color: blue;
     padding:1%;
+    color:white;
+
 }
 nav ul{
     list-style-type: none;
     text-align: center; /*teksti joondamine keskele*/
     margin: 2%;
     padding: 0;
-    background-color: aliceblue;
+    background-color: blue;
+    font-family: Poor Richard;
 
 }
 nav li{
     float: left;
     display: inline-block;
     padding: 1%;
+    border: 2px solid blue;
+    background-color: blue;
 
 }
 main {
@@ -35,8 +39,72 @@ nav a:hover { /*link fookuses kui hiir peal*/
 
         transition-duration: 0.4s;
         font-size: x-large;
+        color: blue;
+        background-color: white;
 }
 nav a{ /*kui võtad hiire ära*/
     transition-duration: 0.4s;
     font-size: large;
+    color: white;
+    text-decoration: solid;
+}
+nav li:hover{
+    float: left;
+    display: inline-block;
+    padding: 1%;
+    border: 2px solid white;
+    background-color: white;
+
+}
+/************section*************/
+section#osa1{
+    display: inline-block;
+    width: 25%;
+    border: 1px solid grey;
+    border-bottom: 1px solid red;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 5%;
+}
+section#osa1 h3{
+    text-align: center;
+    background-color: darkred;
+    border-radius: 60px;
+    padding: 1%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+section#osa2{
+    display: inline-block;
+    width: 25%;
+    border: 1px dotted grey;
+    border-bottom: 1px solid green;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 5%;
+}
+section#osa2 h3{
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 60px;
+    padding: 1%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+section#osa3{
+    display: inline-block;
+    width: 25%;
+    border: 1px dotted grey;
+    border-bottom: 1px solid blue;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 5%;
+}
+section#osa3 h3{
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 60px;
+    padding: 1%;
+    font-weight: bold;
+    font-variant: small-caps;
 }

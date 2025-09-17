@@ -1,0 +1,260 @@
+
+/*********table id=lihtne***********/
+#lihtne {
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon border*/
+}
+#lihtne td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){ /*1.rida 1.lahter*/
+    background-color: red;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){ /*2.rida 1.lahter*/
+    background-color: yellow;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){ /*3.rida 1.lahter*/
+    background-color: lawngreen;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){ /*4.rida 1.lahter*/
+    background-color: blue;
+}
+
+
+#keeruline1 {
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon border*/
+}
+#keeruline1 td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#keeruline1 tr:nth-child(1) td:nth-child(1){ /*1.rida 1.lahter*/
+    background-color: turquoise;
+}
+#keeruline1 tr:nth-child(1) td:nth-child(2){ /*2.rida 1.lahter*/
+    background-color: mediumpurple;
+}
+#keeruline1 tr:nth-child(2) td:nth-child(1){ /*3.rida 1.lahter*/
+    background-color: orange;
+}
+
+#keeruline2 {
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon border*/
+}
+#keeruline2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#keeruline2 tr:nth-child(1) td:nth-child(1){ /*1.rida 1.lahter*/
+    background-color: red;
+}
+#keeruline2 tr:nth-child(1) td:nth-child(2){ /*2.rida 1.lahter*/
+    background-color: yellow;
+}
+#keeruline2 tr:nth-child(2) td:nth-child(1) { /*3.rida 1.lahter*/
+    background-color: lawngreen;
+}
+
+#keeruline3 {
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon border*/
+}
+#keeruline3 td{
+    border: 1px solid black;
+    text-align: center;
+}
+#keeruline3 tr:nth-child(1) td:nth-child(1){ /*1.rida 1.lahter*/
+    background-color: red;
+}
+#keeruline3 tr:nth-child(1) td:nth-child(2){ /*2.rida 1.lahter*/
+    background-color: yellow;
+}
+#keeruline3 tr:nth-child(2) td:nth-child(1){ /*3.rida 1.lahter*/
+    background-color: cyan;
+}
+#keeruline3 tr:nth-child(2) td:nth-child(2){ /*4.rida 1.lahter*/
+    background-color: springgreen;
+}
+#keeruline3 tr:nth-child(3) td:nth-child(1){ /*3.rida 1.lahter*/
+    background-color: lightsalmon;
+}
+#keeruline3 tr:nth-child(3) td:nth-child(2){ /*4.rida 1.lahter*/
+    background-color: goldenrod;
+}
+#keeruline3 tr:nth-child(2) td:nth-child(3){ /*3.rida 1.lahter*/
+    background-color: darkseagreen;
+}
+#keeruline3 tr:nth-child(4) td:nth-child(1){ /*4.rida 1.lahter*/
+    background-color: lightblue;
+}
+
+#keeruline4 {
+    width: 60%;
+    border: 1px solid black;
+    height: 450px;
+    border-collapse: collapse;
+}
+#keeruline4 td{
+    border: 1px solid black;
+    text-align: center;
+}
+#keeruline4 tr:nth-child(1) td:nth-child(1){ /*a*/
+    background-color: red;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(1){ /*b*/
+    background-color: cyan;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(2){ /*c*/
+    background-color: springgreen;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(3){ /*d*/
+    background-color: darkseagreen;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(1){ /*f*/
+    background-color: lightsalmon;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(2){ /*g*/
+    background-color: goldenrod;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(3){ /*h*/
+    background-color: plum;
+}
+#keeruline4 tr:nth-child(4) td:nth-child(1){ /*i*/
+    background-color: lightblue;
+}
+#keeruline4 tr:nth-child(4) td:nth-child(2){ /*j*/
+    background-color: khaki;
+}
+#keeruline4 tr:nth-child(5) td:nth-child(1){ /*k*/
+    background-color: darkolivegreen;
+}
+#keeruline4 tr:nth-child(6) td:nth-child(1){ /*l*/
+    background-color: blueviolet;
+}
+
+#robini\ mingi\ asi {
+    width: 60%;
+    border: 1px solid black;
+    height: 600px;
+    border-collapse: collapse; /*üks joon border*/
+}
+#robini\ mingi\ asi td{
+    border: 1px solid black;
+    text-align: center;
+}
+#robini\ mingi\ asi tr:nth-child(1) td:nth-child(1){
+    background-color: orange;
+}
+#robini\ mingi\ asi tr:nth-child(1) td:nth-child(2){
+    background-color: crimson;
+}
+#robini\ mingi\ asi tr:nth-child(1) td:nth-child(3){
+    background-color: aqua;
+}
+
+#robini\ mingi\ asi tr:nth-child(2) td:nth-child(1){
+    background-color: violet;
+}
+#robini\ mingi\ asi tr:nth-child(2) td:nth-child(2){
+    background-color: lightsalmon;
+}
+#robini\ mingi\ asi tr:nth-child(2) td:nth-child(3){
+    background-color: lightseagreen;
+}
+#robini\ mingi\ asi tr:nth-child(2) td:nth-child(4){
+    background-color: blueviolet;
+}
+#robini\ mingi\ asi tr:nth-child(2) td:nth-child(5){
+    background-color: darkgreen;
+}
+#robini\ mingi\ asi tr:nth-child(3) td:nth-child(1){
+    background-color: lemonchiffon;
+}
+#robini\ mingi\ asi tr:nth-child(3) td:nth-child(2){
+    background-color: lightslategrey;
+}
+#robini\ mingi\ asi tr:nth-child(3) td:nth-child(3){
+    background-color: lightskyblue;
+}
+#robini\ mingi\ asi tr:nth-child(4) td:nth-child(1){
+    background-color: khaki;
+}
+#robini\ mingi\ asi tr:nth-child(4) td:nth-child(2){
+    background-color: orangered;
+}
+#robini\ mingi\ asi tr:nth-child(4) td:nth-child(3){
+    background-color: darkslategrey;
+}
+#robini\ mingi\ asi tr:nth-child(4) td:nth-child(4){
+    background-color: saddlebrown;
+}
+#robini\ mingi\ asi tr:nth-child(5) td:nth-child(1){
+    background-color: springgreen;
+}
+#robini\ mingi\ asi tr:nth-child(5) td:nth-child(2){
+    background-color: yellow;
+}
+#robini\ mingi\ asi tr:nth-child(5) td:nth-child(3){
+    background-color: yellowgreen;
+}
+#robini\ mingi\ asi tr:nth-child(5) td:nth-child(4){
+    background-color: lightpink;
+}
+#robini\ mingi\ asi tr:nth-child(6) td:nth-child(1){
+    background-color: cyan;
+}
+#robini\ mingi\ asi tr:nth-child(6) td:nth-child(2){
+    background-color: mediumvioletred;
+}
+
+#opetajatabel {
+    width: 40%;
+    border: 1px solid black;
+    height: 400px;
+    border-collapse: collapse;
+}
+#opetajatabel td{
+    border: 1px solid black;
+    text-align: center;
+}
+#opetajatabel tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+#opetajatabel tr:nth-child(1) td:nth-child(5){
+    background-color: red;
+}
+#opetajatabel tr:nth-child(2) td:nth-child(2){
+    background-color: yellow;
+}
+#opetajatabel tr:nth-child(2) td:nth-child(4){
+    background-color: yellow;
+}
+#opetajatabel tr:nth-child(3) td:nth-child(3){
+    background-color: green;
+}
+#opetajatabel tr:nth-child(4) td:nth-child(2){
+    background-color: blue;
+}
+#opetajatabel tr:nth-child(4) td:nth-child(4){
+    background-color: blue;
+}
+#opetajatabel tr:nth-child(5) td:nth-child(1){
+    background-color: hotpink;
+}
+#opetajatabel tr:nth-child(5) td:nth-child(5){
+    background-color: hotpink;
+}
