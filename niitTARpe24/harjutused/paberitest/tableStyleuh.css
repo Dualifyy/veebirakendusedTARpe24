@@ -1,0 +1,19 @@
+#table {
+    border-collapse: separate;
+    border: 1px solid black;
+}
+#table td {
+    border: 1px solid black;
+    text-align: center;
+}
+#table2 {
+    border-collapse: separate;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+
+}
+#table2 td {
+    border: 1px solid black;
+    text-align: center;
+}
